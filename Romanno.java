@@ -29,26 +29,20 @@ public class Romanno {
 			}
 			if(c=='M'){
 				c1[i]=1000;
-			}
+				}
 			System.out.println(c1[i]);
 		}
 		for(i=0;i<str.length()-1;i++){
 		if(c1[i]==c1[i+1]){
 				sum=sum+c1[i];
-				//System.out.println(sum+"1");
-			}
+				}
 		 if(c1[i]>c1[i+1]){
 			sum=sum+c1[i+1]+c1[i];
-		}
+			}
 		else{
 			sum=sum+c1[i+1]-c1[i];
 		}
 		System.out.println(sum);
-			}
-		
-			}
-			
-		
-	}
+			}}}
 
 
